@@ -18,15 +18,19 @@ function Tokenomic() {
   };
 
   return (
-    <section className="container-wrapper  py-10 sm:py-14 px-4 ">
+    <section className="  py-10 sm:py-14 px-4 relative z-10  ">
+      <img src="images/paw.png" alt="" className=" absolute right-0 top-20 h-[600px] -z-10" />
       <ToastContainer />
+      <div className="container-wrapper">
+
+      
       <div className=" flex justify-center gap-4 items-center mx-auto ">
         <img src="images/star.png " alt="" className=" h-[50px]" />
         <h1 className=" font-daughter text-2xl sm:text-4xl uppercase">Tokenomics</h1>
         <img src="images/star.png " alt="" className=" h-[50px]" />
       </div>
 
-      <div className=" gap-10 items-center mt-4 px-4 mb-2">
+      <div className=" gap-10 items-center mt-12 px-4 mb-2">
         <img src="images/token.png" alt="" className=" mx-auto" />
       </div>
 
@@ -69,6 +73,7 @@ function Tokenomic() {
             className="mx-auto h-[35px] sm:h-auto"
           />{" "}
         </a>
+      </div>
       </div>
     </section>
   );

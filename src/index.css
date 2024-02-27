@@ -70,7 +70,8 @@
 }
 
 body{
-  background-image: url('../public//images/bgmain.png');
+  background-image: url('../public//images/bgmain.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: black;
 }
