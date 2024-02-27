@@ -1,7 +1,7 @@
 function Hero() {
     return (
       <section className=" relative z-10 py-16">
-        <img src="images/bnb.png" alt=" " className=" absolute left-0 top-10 sm:h-[200px] h-full " />
+        <img src="images/bnb.png" alt=" " className=" absolute left-0 top-10 sm:h-[200px] h-[100px] " />
 
        
        

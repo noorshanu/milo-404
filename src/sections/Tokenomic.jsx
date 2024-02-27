@@ -19,8 +19,8 @@ function Tokenomic() {
 
   return (
     <section className="  py-10 sm:py-14 px-4 relative z-10  ">
-      <img src="images/paw.png" alt="" className=" absolute right-0 top-20 h-[600px] -z-10" />
-      <img src="images/cube2.png" alt="" className=" absolute left-[10%] top-[45%] -z-10 h-[200px]" />
+      <img src="images/paw.png" alt="" className=" absolute right-0 top-20 h-[200px] sm:h-[600px] -z-10" />
+      <img src="images/cube2.png" alt="" className=" absolute left-[10%] top-[45%] -z-10 h-[100px] sm:h-[200px]" />
       <ToastContainer />
       <div className="container-wrapper">
 
