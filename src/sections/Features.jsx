@@ -2,13 +2,13 @@ import React from 'react'
 
 function Features() {
   return (
-    <section className="container-wrapper  mx-auto">
+    <section className="container-wrapper  mx-auto mt-12 sm:mt-4 py-4">
     <div className=" flex justify-center gap-4 items-center mx-auto">
       <img src="images/star.png " alt="" className=" h-[50px]" />
-      <h1 className=" font-daughter text-4xl">OUR FEATURES</h1>
+      <h1 className=" font-daughter text-2xl sm:text-4xl">OUR FEATURES</h1>
       <img src="images/star.png " alt="" className=" h-[50px]" />
     </div>
-    <div className=" flex justify-between items-center py-6">
+    <div className=" flex justify-between items-center py-6 flex-col sm:flex-row gap-4">
       <div className=" h-[300px] w-[300px] bg-black border-2 border-white"></div>
 
       <div className=" h-[300px] w-[300px] bg-black border-2 border-white rounded-sm"></div>

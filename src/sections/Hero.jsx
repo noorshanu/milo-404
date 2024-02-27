@@ -1,18 +1,21 @@
 function Hero() {
     return (
-      <section className="">
+      <section className=" relative z-10 py-16">
+        <img src="images/bnb.png" alt=" " className=" absolute left-0 top-10 sm:h-[200px] h-full " />
+
+       
        
   
         <div className="container-wrapper  flex flex-col items-center justify-center lg:drop-shadow-[0_0_10rem_white]">
-         <div className="flex justify-between items-center">
+         <div className="flex justify-between items-center mt-8 mb-8 gap-6 flex-col sm:flex-row">
          <img
             src="/images/hero.png"
-            className="w-full lg:w-[70%] lg:h-[70%] object-contain"
+            className="w-full lg:w-[50%] lg:h-[50%] object-contain"
             alt=""
           />
   
   
-          <div>
+          <div className=" relative z-40">
             <img src="images/milo.png" alt="" className=" h-[120px]" />
             <div className=" pt-3 mb-2">
               <h2 className=" text-2xl font-semibold font-daughter py-2">Hi, meet MILO404,</h2>
@@ -35,7 +38,7 @@ function Hero() {
         
         </div>
     
-  
+  <img src="images/cube1.png" alt="" className=" absolute right-[15%] bottom-0 h-[100px] -z-10" />
       </section>
     );
   }
