@@ -6,12 +6,11 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 
-function Navbar() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-
+function Navmenu() {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <>
-      <nav className="z-[100] bg-[#454d57] lg:bg-transparent">
+      <nav className="z-[100] relative bg-[#454d57] lg:bg-transparent">
         <div className=" mx-w-full px-5 sm:max-w-[1300px] mx-auto bg-[#454d57] h-14 lg:h-16 2xl:h-20 rounded-2xl   r">
           <div className="items-center justify-between text-base font-medium text-primary hidden lg:flex">
             <div>
@@ -67,20 +66,20 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div className=" flex  ">
+          <div className=" sm:hidden flex justify-between px-6 items-center">
               <img
                 src="/images/logo.png"
-                className="w-full max-w-[6] sm:max-w-[11rem] py-2 "
+                className="w-full max-w-[8rem] sm:max-w-[11rem] py-2 "
                 alt=""
               />
-              <button
+               <button
             className="text-2xl text-black flex lg:hidden"
             onClick={() => setSidebarOpen(true)}
           >
             <IoMenu />
           </button>
             </div>
-          
+         
         </div>
       </nav>
 
@@ -93,14 +92,14 @@ function Navbar() {
           <img src="/images/logo.png" className="w-full max-w-[9rem]" alt="" />
 
           <button
-            className="text-black text-2xl"
+            className="text-white text-2xl"
             onClick={() => setSidebarOpen(false)}
           >
             <IoClose />
           </button>
         </div>
 
-        <div className="space-y-5 flex flex-col text-left items-start text-black font-medium">
+        <div className="space-y-5 flex flex-col text-left items-start text-white font-medium">
           <Link
             to="contact"
             onClick={() => setSidebarOpen(false)}
@@ -129,6 +128,21 @@ function Navbar() {
           >
             Tokenomics
           </Link>
+
+          <div className=" flex items-center gap-3">
+                <a href="/">
+                  <FaXTwitter />
+                </a>
+                <a href="/">
+                  <FaTelegramPlane />
+                </a>
+                <a href="/">
+                  <FaInstagram />
+                </a>
+                <a href="/">
+                  <FaMedium />
+                </a>
+              </div>
         </div>
       </div>
 
@@ -136,7 +150,7 @@ function Navbar() {
         className={`black-screen z-[900] ${sidebarOpen ? "show" : ""}`}
       ></div>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navmenu

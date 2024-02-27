@@ -4,7 +4,8 @@ import Hero from "./sections/Hero"
 import Roadmap from "./sections/Roadmap"
 import Tokenomic from "./sections/Tokenomic"
 import Footer from './sections/Footer'
-import Navbar from "./components/Navbar"
+import Navmenu from "./Components/Navmenu"
+
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <img src="images/cir1.png" alt="" className=" absolute right-0 top-0 h-[500px] hidden sm:block" />
       <img src="images/lin2.png" alt="" className=" absolute right-0 top-0 h-[500px]" />
     <div className=" py-0 sm:py-4">
-      <Navbar/>
+    <Navmenu/>
      </div>
 
      <div>
