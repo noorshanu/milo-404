@@ -1,4 +1,5 @@
 import React from 'react'
+import Roadmenu from './Roadmenu'
 
 function Roadmap() {
   return (
@@ -11,7 +12,12 @@ function Roadmap() {
       <h1 className=" font-daughter text-2xl sm:text-4xl">ROADMAP</h1>
       <img src="images/star.png " alt="" className=" h-[50px]" />
     </div>
-      <div className=' relative'>
+
+    <div className=' my-6'>
+      <Roadmenu/>
+
+    </div>
+      <div className=' relative hidden sm:block'>
       <div className=' absolute left-[-12%] top-[-22%]'>
           <h1 className=' font-daughter text-2xl font-semibold'>Phase 1</h1>
           <p className=' text-base max-w-sm'>

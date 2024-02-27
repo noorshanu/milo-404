@@ -67,20 +67,13 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div className=" flex  ">
-              <img
-                src="/images/logo.png"
-                className="w-full max-w-[6] sm:max-w-[11rem] py-2 "
-                alt=""
-              />
-              <button
+
+          <button
             className="text-2xl text-black flex lg:hidden"
             onClick={() => setSidebarOpen(true)}
           >
             <IoMenu />
           </button>
-            </div>
-          
         </div>
       </nav>
 
