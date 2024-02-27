@@ -39,7 +39,9 @@
 }
 
 @layer base {
-
+  * {
+    @apply  scroll-smooth;
+  }
 
   html,
   body {
@@ -67,9 +69,8 @@
   pointer-events: visible;
 }
 
-
 body{
-  background-image: url('../public/images/bgmain.png');
+  background-image: url('../public//images/bgmain.png');
   background-size: cover;
   background-repeat: no-repeat;
 }

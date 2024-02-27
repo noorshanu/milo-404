@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <nav className="z-[100] bg-secondary lg:bg-transparent">
-        <div className="w-[1300px] mx-auto bg-secondary h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
+        <div className="container-wrapper bg-secondary h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
           <div className="items-center justify-evenly text-base font-medium text-primary hidden lg:flex">
             <Link
               to="contact"
