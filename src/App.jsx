@@ -1,9 +1,10 @@
-import Navbar from "./Components/Navbar"
+
 import Features from "./sections/Features"
 import Hero from "./sections/Hero"
 import Roadmap from "./sections/Roadmap"
 import Tokenomic from "./sections/Tokenomic"
 import Footer from './sections/Footer'
+import Navbar from "./components/Navbar"
 
 
 function App() {
