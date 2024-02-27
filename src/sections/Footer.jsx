@@ -10,7 +10,7 @@ function footer() {
       <img
         src="images/footer.png"
         alt=""
-        className=" absolute top-0 right-0 -z-10 h-auto sm:h-[600px]"
+        className=" absolute top-0 right-0 -z-10 h-auto sm:h-[800px]"
       />
       <div className=" container-wrapper px-4 py-5">
         <div className=" flex justify-center gap-4 items-center mx-auto">
