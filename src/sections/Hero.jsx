@@ -1,3 +1,4 @@
+import Typewriter from 'typewriter-effect';
 function Hero() {
     return (
       <section className=" relative z-10 py-16">
@@ -18,7 +19,14 @@ function Hero() {
           <div className=" relative z-40">
             <img src="images/milo.png" alt="" className=" h-[120px]" />
             <div className=" pt-3 mb-2">
-              <h2 className=" text-2xl font-semibold font-daughter py-2">Hi, meet MILO404,</h2>
+              <h2 className=" text-2xl font-semibold font-daughter py-2">  <Typewriter
+          options={{
+            strings: ['Hi, meet MILO404,'],
+            autoStart: true,
+            loop: true,
+            wrapperClassName: 'text-2xl font-semibold font-daughter', // Apply Tailwind CSS classes here
+          }}
+        /></h2>
               <div className=" bg-[#00ffba] h-2 w-[70px] my-3">
   
               </div>
