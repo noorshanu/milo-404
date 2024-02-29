@@ -2,6 +2,7 @@ import { AiTwotoneCopy } from "react-icons/ai";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import React, { useRef } from "react";
+import Typewriter from 'typewriter-effect';
 
 function Tokenomic() {
   const notify = () => {
@@ -19,15 +20,22 @@ function Tokenomic() {
 
   return (
     <section className="  py-10 sm:py-14 px-4 relative z-10  ">
-      <img src="images/paw.png" alt="" className=" absolute right-0 top-20 h-[200px] sm:h-[600px] -z-10" />
-      <img src="images/cube2.png" alt="" className=" absolute left-[10%] top-[45%] -z-10 h-[100px] sm:h-[200px]" />
+      <img src="images/paw.png" alt="" className=" absolute right-0 top-20 h-[200px] sm:h-[600px] -z-10 floating" />
+      <img src="images/cube2.png" alt="" className=" absolute left-[10%] top-[45%] -z-10 h-[100px] sm:h-[200px] anime2" />
       <ToastContainer />
       <div className="container-wrapper">
 
       
       <div className=" flex justify-center gap-4 items-center mx-auto ">
         <img src="images/star.png " alt="" className=" h-[50px]" />
-        <h1 className=" font-daughter text-2xl sm:text-4xl uppercase">Tokenomics</h1>
+        <Typewriter
+          options={{
+            strings: ['OUR TOKENOMICS'],
+            autoStart: true,
+            loop: true,
+            wrapperClassName: 'font-daughter text-2xl sm:text-4x', // Apply Tailwind CSS classes here
+          }}
+        />
         <img src="images/star.png " alt="" className=" h-[50px]" />
       </div>
 

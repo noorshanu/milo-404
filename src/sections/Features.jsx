@@ -2,44 +2,44 @@ import React, { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
 
 function Features() {
-  const [showTypewriter, setShowTypewriter] = useState(false);
+  // const [showTypewriter, setShowTypewriter] = useState(false);
 
-  useEffect(() => {
-    let lastScrollTop = 0;
+  // useEffect(() => {
+  //   let lastScrollTop = 0;
 
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  //   const handleScroll = () => {
+  //     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-      if (scrollTop < lastScrollTop) {
-        setShowTypewriter(true);
-      } else {
-        setShowTypewriter(false);
-      }
+  //     if (scrollTop < lastScrollTop) {
+  //       setShowTypewriter(true);
+  //     } else {
+  //       setShowTypewriter(false);
+  //     }
 
-      lastScrollTop = scrollTop;
-    };
+  //     lastScrollTop = scrollTop;
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
   return (
     <section className="container-wrapper  mx-auto mt-12 sm:mt-4 py-4">
     <div className=" flex justify-center gap-4 items-center mx-auto">
       <img src="images/star.png " alt="" className=" h-[50px]" />
-      {showTypewriter && (
+     
         <Typewriter
           options={{
             strings: ['OUR FEATURES'],
             autoStart: true,
-            loop: false,
+            loop: true,
             wrapperClassName: 'font-daughter text-2xl sm:text-4x', // Apply Tailwind CSS classes here
           }}
         />
-      )}
-      {!showTypewriter && <h1 className="font-daughter text-2xl sm:text-4x">OUR FEATURES</h1>}
+    
+    
       {/* <h1 className=" font-daughter text-2xl sm:text-4xl">OUR FEATURES</h1> */}
       <img src="images/star.png " alt="" className=" h-[50px]" />
     </div>

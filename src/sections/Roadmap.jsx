@@ -1,15 +1,23 @@
 import React from 'react'
 import Roadmenu from './Roadmenu'
+import Typewriter from 'typewriter-effect';
 
 function Roadmap() {
   return (
  <section className=' relative z-20'>
-  <img src="images/bnb2.png" alt="" className=' absolute right-0 top-0 h-[100px] sm:h-[300px]' />
+  <img src="images/bnb2.png" alt="" className=' absolute right-0 top-0 h-[100px] sm:h-[300px] anime2' />
   <img src="images/line.png" alt="" className=' absolute left-0 top-0 h-[100px] sm:h-[1100px]' />
     <div className=' container-wrapper px-6 py-4'>
     <div className=" flex justify-center gap-4 items-center mx-auto">
       <img src="images/star.png " alt="" className=" h-[50px]" />
-      <h1 className=" font-daughter text-2xl sm:text-4xl">ROADMAP</h1>
+      <Typewriter
+          options={{
+            strings: ['OUR ROADMAP'],
+            autoStart: true,
+            loop: true,
+            wrapperClassName: 'font-daughter text-2xl sm:text-4x', // Apply Tailwind CSS classes here
+          }}
+        />
       <img src="images/star.png " alt="" className=" h-[50px]" />
     </div>
 
