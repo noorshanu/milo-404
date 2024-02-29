@@ -13,7 +13,7 @@ function Roadmap() {
       <img src="images/star.png " alt="" className=" h-[50px]" />
     </div>
 
-    <div className=' my-6'>
+    <div className=' my-6 block sm:hidden'>
       <Roadmenu/>
 
     </div>
