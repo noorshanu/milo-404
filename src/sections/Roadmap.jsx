@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 function Roadmap() {
   return (
  <section className=' relative z-20'>
-  <img src="images/bnb2.png" alt="" className=' absolute right-0 top-0 h-[100px] sm:h-[300px] anime2' />
+ 
   <img src="images/line.png" alt="" className=' absolute left-0 top-0 h-[100px] sm:h-[1100px]' />
     <div className=' container-wrapper px-6 py-4'>
     <div className=" flex justify-center gap-4 items-center mx-auto">
@@ -26,23 +26,23 @@ function Roadmap() {
 
     </div>
       <div className=' relative hidden sm:block'>
-      <div className=' absolute left-[-12%] top-[-22%]'>
+      <div className=' absolute left-[-12%] top-[-35%]'>
           <h1 className=' font-daughter text-2xl font-semibold'>Phase 1</h1>
           <p className=' text-base max-w-sm'>
-          Lorem ipsum dolor sit amet,<br /> 
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
+          Brainy Beginnings: Deep-diving into the crypto abyss to ensure Milo 404 is the sharpest tool in the shed.<br /> 
+          Genesis: Milo 404 pops out on Solana—fast, furious, and dripping with rewards. <br />
+          Early Bird Special: Sneak a peek and grab a piece of the action on  <br />
+          Solana Pad. Early adopters, assemble! <br />
           </p>
 
         </div>
         <div className=' absolute left-[40%] top-[-22%]'>
           <h1 className=' font-daughter text-2xl font-semibold text-[#8372e9]'>Phase 3</h1>
           <p className=' text-base max-w-sm'>
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
+          Audits and KYC because we're the good guys. <br />
+          Hitting Dextools, Dexview, and Birdseye. <br />
+          We’re not just trending; we're trailblazing. <br />
+          
           </p>
 
         </div>
@@ -54,20 +54,20 @@ function Roadmap() {
         <div className=' absolute left-[17%] bottom-[-20%]'>
           <h1 className=' font-daughter text-2xl font-semibold text-[#00aab5]'>Phase 2</h1>
           <p className=' text-base max-w-sm'>
-          Lorem ipsum dolor sit amet,<br /> 
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
+          Landing spots on CoinMarketCap and CoinGecko.<br /> 
+          Open Sesame: Doors open wide on Tier 2 exchange, <br />
+          More access, more action. <br />
+          
           </p>
 
         </div>
         <div className=' absolute left-[70%] bottom-[-20%]'>
           <h1 className=' font-daughter text-2xl font-semibold text-[#481e63]'>Phase 4</h1>
           <p className=' text-base max-w-sm'>
-          Lorem ipsum dolor sit amet,<br /> 
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
-          Lorem ipsum dolor sit amet, <br />
+          Marketing Madness: Spreading the Milo 404 gospel far and wide. <br /> 
+          Get ready; your feed is about to get flooded. <br />
+          One of Us: Events, AMAs, and secret handshakes.  <br />
+      
           </p>
 
         </div>

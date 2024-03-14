@@ -43,7 +43,7 @@ function Tokenomic() {
         <img src="images/token.png" alt="" className=" mx-auto" />
       </div>
 
-      <div className="flex justify-center gap-5 mt-16">
+      {/* <div className="flex justify-center gap-5 mt-16">
         <input
           type="text"
           value={textToCopy}
@@ -57,9 +57,9 @@ function Tokenomic() {
         >
           <AiTwotoneCopy />
         </button>
-      </div>
+      </div> */}
 
-      <div className="flex justify-center  gap-5 mt-7">
+      {/* <div className="flex justify-center  gap-5 mt-7">
         <a
           href="https://github.com/Coinsult/solidity/blob/main/Coinsult_Mikawa_Inu_0x83...1235_Audit.pdf"
           className="btn-hero text-center w-[50%] sm:w-auto mx-auto sm:mx-0"
@@ -82,7 +82,7 @@ function Tokenomic() {
             className="mx-auto h-[35px] sm:h-auto"
           />{" "}
         </a>
-      </div>
+      </div> */}
       </div>
     </section>
   );

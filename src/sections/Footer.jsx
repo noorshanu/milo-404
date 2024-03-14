@@ -6,20 +6,20 @@ import { FaMedium } from "react-icons/fa6";
 
 function footer() {
   return (
-    <section className=" relative z-20 overflow-hidden">
-      <img
+    <section className=" relative z-20 ">
+      {/* <img
         src="images/footer.png"
         alt=""
         className=" absolute top-0 right-0 -z-10 h-auto sm:h-[800px] floating"
-      />
-      <div className=" container-wrapper px-4 py-5">
-        <div className=" flex justify-center gap-4 items-center mx-auto">
+      /> */}
+      <div className=" container-wrapper px-4 py-2">
+        {/* <div className=" flex justify-center gap-4 items-center mx-auto">
           <img src="images/star.png " alt="" className=" h-[50px]" />
           <h1 className=" font-daughter text-2xl sm:text-4xl">COMMUNITY</h1>
           <img src="images/star.png " alt="" className=" h-[50px]" />
-        </div>
+        </div> */}
 
-        <div className=" flex flex-col justify-between sm:flex-row items-center py-16">
+        {/* <div className=" flex flex-col justify-between sm:flex-row items-center py-16">
           <div className=" w-full">
             <img
               src="images/home.png"
@@ -37,9 +37,9 @@ function footer() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className=" flex justify-center mt-2 sm:mt-8">
+        <div className=" flex justify-center mt-2 sm:mt-1">
           <a
             href="/"
             className=" font-daughter text-2xl uppercase bg-[#00fff6] border-2 border-[#00a59f] py-2 px-6"

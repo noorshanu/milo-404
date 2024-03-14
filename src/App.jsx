@@ -35,7 +35,7 @@ function App() {
      <Roadmap/>
 
      </div>
-     <div className=" mt-4">
+     <div className=" mt-0">
      <Footer/>
 
      </div>

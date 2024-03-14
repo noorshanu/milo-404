@@ -21,13 +21,7 @@ function Navmenu() {
               />
             </div>
             <div className=" flex items-center justify-evenly gap-6">
-              <Link
-                to="contact"
-                onClick={() => setSidebarOpen(false)}
-                className="cursor-pointer text-sm xl:text-base"
-              >
-                Contact Us
-              </Link>
+        
               <Link
                 to="roadmap"
                 onClick={() => setSidebarOpen(false)}
@@ -100,13 +94,7 @@ function Navmenu() {
         </div>
 
         <div className="space-y-5 flex flex-col text-left items-start text-white font-medium">
-          <Link
-            to="contact"
-            onClick={() => setSidebarOpen(false)}
-            className="cursor-pointer text-sm xl:text-base"
-          >
-            Contact Us
-          </Link>
+          
           <Link
             to="roadmap"
             onClick={() => setSidebarOpen(false)}

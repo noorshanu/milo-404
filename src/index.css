@@ -45,7 +45,7 @@
 
   html,
   body {
-    @apply  text-white overflow-x-hidden;
+    @apply  text-white ;
   }
 
   .container-wrapper {
