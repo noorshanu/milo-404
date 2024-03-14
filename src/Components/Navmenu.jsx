@@ -15,7 +15,7 @@ function Navmenu() {
           <div className="items-center justify-between text-base font-medium text-primary hidden lg:flex">
             <div>
               <img
-                src="/images/logo.png"
+                src="/images/milo.png"
                 className="w-full max-w-[6] sm:max-w-[11rem] py-2 "
                 alt=""
               />
@@ -83,7 +83,7 @@ function Navmenu() {
         }`}
       >
         <div className="flex items-center justify-between mb-8">
-          <img src="/images/logo.png" className="w-full max-w-[9rem]" alt="" />
+          <img src="/images/milo.png" className="w-full max-w-[9rem]" alt="" />
 
           <button
             className="text-white text-2xl"
