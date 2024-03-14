@@ -53,6 +53,10 @@
   }
 }
 
+.rot{
+  rotate: 26deg;
+}
+
 .black-screen {
   position: fixed;
   top: 0;

@@ -5,7 +5,7 @@ function Hero() {
       <img
         src="images/bnb.png"
         alt=" "
-        className=" absolute left-0 top-10 sm:h-[200px] h-[100px] floating "
+        className=" absolute left-0 top-10 sm:h-[200px] h-[100px] floating  rot "
       />
 
       <div className="container-wrapper  flex flex-col items-center justify-center lg:drop-shadow-[0_0_10rem_white]">
@@ -37,7 +37,7 @@ function Hero() {
                 than a coin; it's your VIP pass to the next crypto wave.
               </p>
 
-              <p className=" font-daughter text-base py-2 ">
+              <p className=" font-daughter text-base pb-3 ">
                 Telegram game that's straight 🔥, NFT goodies you can't resist,
                 and a community vibe that's all about us, get ready to ride the
                 Milo 404 era. Not just a token, but a revolution. 🚀
