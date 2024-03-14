@@ -42,7 +42,7 @@ function footer() {
         <div className=" flex justify-center mt-2 sm:mt-1">
           <a
             href="/"
-            className=" font-daughter text-2xl uppercase bg-[#00fff6] border-2 border-[#00a59f] py-2 px-6"
+            className=" font-daughter text-2xl uppercase bg-[#00fff6] border-2 border-[#00a59f] py-2 px-6 text-black"
           >
             Join us Now{" "}
           </a>

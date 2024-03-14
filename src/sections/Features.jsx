@@ -58,8 +58,8 @@ function Features() {
           </p>
         </div>
 
-        <div>
-          <h2 className=" text-center font-daughter text-xl py-2">NFT Wonderland </h2>
+        <div className=" mt-4">
+          <h2 className=" text-center font-daughter text-xl pb-2">NFT Wonderland </h2>
 
           <div className=" h-[300px] w-[300px] bg-black border-2 border-white">
             <img src="images/fet3.jpg" alt=""  className="  object-cover  h-[300px]"/>
