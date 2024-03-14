@@ -32,9 +32,11 @@ function Hero() {
               </div>
   
               <p className=" font-daughter text-base ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              Missed the Solana moonshots? 🌙 Say hello to Milo 404! It's more than a coin; it's your VIP pass to the next crypto wave.
+              </p>
+
+              <p className=" font-daughter text-base py-2 ">
+              Telegram game that's straight 🔥, NFT goodies you can't resist, and a community vibe that's all about us, get ready to ride the Milo 404 era. Not just a token, but a revolution. 🚀
               </p>
   
   
