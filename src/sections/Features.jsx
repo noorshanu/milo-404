@@ -62,7 +62,8 @@ function Features() {
           <h2 className=" text-center font-daughter text-xl pb-2">NFT Wonderland </h2>
 
           <div className=" h-[300px] w-[300px] bg-black border-2 border-white">
-            <img src="images/fet3.jpg" alt=""  className="  object-cover  h-[300px]"/>
+          <img src="images/fet2.jpg" alt="" className=" object-cover  h-[300px]" />
+
           </div>
 
           <p className=" max-w-80 mx-auto font-daughter text-base py-2">
@@ -73,7 +74,7 @@ function Features() {
           <h2 className=" text-center font-daughter text-xl pb-2">The Culture Coin of Solana</h2>
 
           <div className=" h-[300px] w-[300px] bg-black border-2 border-white">
-            <img src="images/fet2.jpg" alt="" className=" object-cover  h-[300px]" />
+          <img src="images/fet3.jpg" alt=""  className="  object-cover  h-[300px]"/>
           </div>
 
           <p className=" max-w-80 mx-auto font-daughter text-base py-2">
