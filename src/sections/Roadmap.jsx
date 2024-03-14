@@ -26,17 +26,17 @@ function Roadmap() {
 
     </div>
       <div className=' relative hidden sm:block'>
-      <div className=' absolute left-[-12%] top-[-35%]'>
+      <div className=' absolute left-[-9%] top-[-55%] border-2 border-white rounded-lg p-3 max-w-[300px] '>
           <h1 className=' font-daughter text-2xl font-semibold'>Phase 1</h1>
           <p className=' text-base max-w-sm'>
           Brainy Beginnings: Deep-diving into the crypto abyss to ensure Milo 404 is the sharpest tool in the shed.<br /> 
-          Genesis: Milo 404 pops out on Solana—fast, furious, and dripping with rewards. <br />
+          Genesis: Milo 404 pops out on Solana—fast and dripping with rewards. <br />
           Early Bird Special: Sneak a peek and grab a piece of the action on  <br />
-          Solana Pad. Early adopters, assemble! <br />
+          Solana Pad.
           </p>
 
         </div>
-        <div className=' absolute left-[40%] top-[-22%]'>
+        <div className=' absolute left-[50%] top-[-42%] border-2 border-white rounded-lg p-3 max-w-[280px]'>
           <h1 className=' font-daughter text-2xl font-semibold text-[#8372e9]'>Phase 3</h1>
           <p className=' text-base max-w-sm'>
           Audits and KYC because we're the good guys. <br />
@@ -51,7 +51,7 @@ function Roadmap() {
         </div>
   
 
-        <div className=' absolute left-[17%] bottom-[-20%]'>
+        <div className=' absolute left-[17%] bottom-[-40%] border-2 border-white rounded-lg p-3 max-w-[280px]'>
           <h1 className=' font-daughter text-2xl font-semibold text-[#00aab5]'>Phase 2</h1>
           <p className=' text-base max-w-sm'>
           Landing spots on CoinMarketCap and CoinGecko.<br /> 
@@ -61,7 +61,7 @@ function Roadmap() {
           </p>
 
         </div>
-        <div className=' absolute left-[70%] bottom-[-20%]'>
+        <div className=' absolute left-[70%] bottom-[-48%]  border-2 border-white rounded-lg p-3'>
           <h1 className=' font-daughter text-2xl font-semibold text-[#481e63]'>Phase 4</h1>
           <p className=' text-base max-w-sm'>
           Marketing Madness: Spreading the Milo 404 gospel far and wide. <br /> 
