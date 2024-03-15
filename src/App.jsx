@@ -5,6 +5,7 @@ import Roadmap from "./sections/Roadmap"
 import Tokenomic from "./sections/Tokenomic"
 import Footer from './sections/Footer'
 import Navmenu from "./Components/Navmenu"
+import RoadmapCards from "./Components/RoadmapCards"
 
 
 
@@ -33,6 +34,8 @@ function App() {
      </div>
      <div className=" mt-4">
      <Roadmap/>
+
+     <RoadmapCards/>
 
      </div>
      <div className=" mt-0">

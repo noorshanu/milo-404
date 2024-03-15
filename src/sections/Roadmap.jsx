@@ -6,7 +6,7 @@ function Roadmap() {
   return (
  <section className=' relative z-20'>
  
-  <img src="images/line.png" alt="" className=' absolute left-0 top-0 h-[100px] sm:h-[1100px]' />
+  <img src="images/line.png" alt="" className=' absolute left-0 top-0 h-[100px] sm:h-[500px] -z-10' />
     <div className=' container-wrapper px-6 py-4'>
     <div className=" flex justify-center gap-4 items-center mx-auto">
       <img src="images/star.png " alt="" className=" h-[50px]" />
@@ -22,10 +22,10 @@ function Roadmap() {
     </div>
 
     <div className=' my-6 block sm:hidden'>
-      <Roadmenu/>
+      {/* <Roadmenu/> */}
 
     </div>
-      <div className=' relative hidden sm:block'>
+      {/* <div className=' relative hidden sm:block'>
       <div className=' absolute left-[-9%] top-[-55%] border-2 border-white rounded-lg p-3 max-w-[300px] '>
           <h1 className=' font-daughter text-2xl font-semibold'>Phase 1</h1>
           <p className=' text-base max-w-sm'>
@@ -71,7 +71,7 @@ function Roadmap() {
           </p>
 
         </div>
-      </div>
+      </div> */}
     </div>
  </section>
   )

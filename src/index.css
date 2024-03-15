@@ -53,6 +53,17 @@
   }
 }
 
+.cards {
+  border-radius: 40px;
+  background: #454d57;
+  box-shadow: 2px 4px 12px #00000014;
+  display: flex;
+  padding: 35px 30px 30px;
+  flex-direction: column;
+  min-height: 275px;
+  border: 2px solid;
+  border-color: #00fff6;
+}
 .rot{
   rotate: 26deg;
 }
